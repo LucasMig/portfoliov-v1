@@ -140,7 +140,6 @@
 /* BELOW 520px WIDTH */
 @media (max-width: 32.5em) {
   html {
-    /* font-size: 43.75%; */
     font-size: 37.5%;
   }
 
@@ -190,5 +189,22 @@
 
   .mobile .nav--item {
     font-size: 2rem;
+  }
+}
+
+/* BELOW 352px WIDTH */
+@media (max-width: 22em) {
+  .mobile .footer {
+    gap: 0.4rem;
+  }
+
+  .mobile .icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .mobile .icon--svg {
+    width: 30px;
+    height: 30px;
   }
 }

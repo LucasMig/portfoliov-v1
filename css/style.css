@@ -38,6 +38,7 @@ body {
 }
 
 span {
+  text-decoration: none;
   font-weight: 400;
   transition: all 0.3s;
 }
@@ -163,6 +164,10 @@ a:hover .tooltip {
   color: #555;
   transition: all 0.3s;
   pointer-events: none;
+}
+
+.switch .icon {
+  padding: 0.4rem;
 }
 
 .link:hover .icon {
