@@ -56,6 +56,8 @@ strong {
   color: #555;
   line-height: 1.6;
   margin-bottom: 2.8rem;
+
+  transition: all 0.3s;
 }
 
 a {
@@ -336,9 +338,30 @@ a:hover .tooltip {
   margin: 0;
 }
 
+.footer--link,
+.footer--link:link,
+.footer--link:visited {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.footer--link:hover,
+.footer--link:active {
+  color: #de5c89;
+  cursor: pointer;
+}
+
 .social__link {
   display: flex;
   align-items: center;
+}
+
+.social__link:hover p,
+.social__link:hover .icon {
+  color: #de5c89;
+  stroke: #de5c89;
+  fill: #de5c89;
 }
 
 .icon--svg {
