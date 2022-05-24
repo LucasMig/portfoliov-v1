@@ -31,7 +31,10 @@ html {
 }
 
 body {
+  padding: 0 2.4rem;
   transition: all 0.3s;
+  height: 100vh;
+  overflow: scroll;
 }
 
 span {
@@ -96,9 +99,22 @@ a:hover .tooltip {
 }
 
 /* NAVIGATION */
+.nav__bar {
+  margin-bottom: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+  margin-bottom: 2rem;
+}
+
+.mobile--nav__btn {
+  display: none;
+  align-self: flex-start;
+  padding: 2.4rem 0;
+}
+
 .nav__container {
   padding: 2.4rem 0;
-  margin-bottom: 1.8rem;
   display: flex;
   align-items: center;
   gap: 4.4rem;
@@ -146,6 +162,14 @@ a:hover .tooltip {
 
 .link:hover .icon {
   color: #fff;
+}
+
+.icon--menu {
+  display: none;
+}
+
+.nav--item {
+  display: none;
 }
 
 /* DISPLAY MODE SWITCH */
@@ -328,7 +352,7 @@ a:hover .tooltip {
   justify-content: center;
   background-color: #e6e6e6;
   border-top: solid 1px #b4b4b4;
-  padding: 4.4rem 0 5.2rem 0;
+  padding: 4.4rem 1.2rem 5.2rem 1.2rem;
 }
 
 .footer__list,
@@ -370,58 +394,4 @@ a:hover .tooltip {
   stroke: #555;
   fill: #555;
   pointer-events: none;
-}
-
-/* DARK MODE */
-.dark {
-  background-color: #333;
-}
-
-.dark .text {
-  color: #e6e6e6;
-}
-
-.dark a .tooltip {
-  background-color: #e6e6e6;
-  color: #000;
-}
-
-.dark .vl {
-  border-right: solid 1px #e6e6e6;
-}
-
-.dark .nav__link {
-  border: solid 1px #de5c89;
-}
-
-.dark .icon {
-  color: #e6e6e6;
-}
-
-.dark .project__title {
-  color: #e6e6e6;
-  border-top: solid 1px #de5c89;
-}
-
-.dark .card {
-  box-shadow: 0 0.6rem 1.2rem rgba(0, 0, 0, 0.3);
-  background: linear-gradient(
-    120deg,
-    rgba(51, 51, 51, 1) 25%,
-    rgb(69, 55, 60) 100%
-  );
-}
-
-.dark .label {
-  background-color: #444;
-  border: solid 1px #de5c89;
-}
-
-.dark .footer {
-  background-color: #444;
-}
-
-.dark .icon--svg {
-  stroke: #e6e6e6;
-  fill: #e6e6e6;
 }
