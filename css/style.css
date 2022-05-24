@@ -39,6 +39,7 @@ body {
 
 span {
   font-weight: 400;
+  transition: all 0.3s;
 }
 
 strong {
@@ -374,7 +375,7 @@ a:hover .tooltip {
   transition: all 0.3s;
 }
 
-.footer--link:hover,
+.footer--link:hover span,
 .footer--link:active {
   color: #de5c89;
   cursor: pointer;
