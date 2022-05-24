@@ -151,6 +151,10 @@ a:hover .tooltip {
   background-color: #d6336c;
 }
 
+#btn__menu--close {
+  display: none;
+}
+
 .icon {
   padding: 1.2rem;
   width: 32px;
