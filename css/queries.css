@@ -144,6 +144,14 @@
     font-size: 37.5%;
   }
 
+  body {
+    padding: 0.8rem;
+  }
+
+  .mobile .container {
+    padding: 0 0.8rem;
+  }
+
   .mobile .label {
     width: 70px;
     height: 36px;
